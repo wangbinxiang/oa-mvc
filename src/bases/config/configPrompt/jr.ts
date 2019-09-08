@@ -1,0 +1,19 @@
+export default {
+  // 资源审核
+  CN_ORGANIZATIONS_APPROVE_TITLE: '金融机构认证审核通过',
+  CN_ORGANIZATIONS_REJECT_TITLE: '金融机构认证审核驳回',
+  SU_APPLY_APPROVE_ORGANIZATIONS: '金融机构认证审核通过成功',
+  SU_APPLY_REJECT_ORGANIZATIONS: '金融机构认证审核驳回成功',
+
+  CN_PRODUCTS_APPROVE_TITLE: '金融产品审核通过',
+  CN_PRODUCTS_REJECT_TITLE: '金融产品审核驳回',
+  SU_APPLY_APPROVE_PRODUCTS: '金融产品审核通过成功',
+  SU_APPLY_REJECT_PRODUCTS: '金融产品审核驳回成功',
+
+  /**
+   * 资源管理
+   * */
+  SU_ASSOCIATION_POLICY_ANALZING: '关联政策解读成功',
+  CN_POLICY_ANALZING_DISASSOCIATION_TITLE: '解除政策解读关联',
+  SU_DISASSOCIATION_POLICY_ANALZING: '解除政策解读关联成功'
+}

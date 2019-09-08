@@ -1,0 +1,28 @@
+export default {
+  // 资源审核
+  CN_IDENTIFY_PERSONAL_APPROVE_TITLE: '实名认证审核通过',
+  CN_IDENTIFY_PERSONAL_REJECT_TITLE: '实名认证审核驳回',
+  SU_APPLY_APPROVE_IDENTIFY_PERSONAL: '实名认证审核通过成功',
+  SU_APPLY_REJECT_IDENTIFY_PERSONAL: '实名认证审核驳回成功',
+
+  CN_IDENTIFY_COMPANY_APPROVE_TITLE: '企业认证审核通过',
+  CN_IDENTIFY_COMPANY_REJECT_TITLE: '企业认证审核驳回',
+  SU_APPLY_APPROVE_IDENTIFY_COMPANY: '企业认证审核通过成功',
+  SU_APPLY_REJECT_IDENTIFY_COMPANY: '企业认证审核驳回成功',
+
+  /**
+   * 资源管理
+   * */
+  SU_ADD_POLICY: '添加政策成功',
+  SU_EDIT_POLICY: '编辑政策成功',
+  CN_POLICY_DELETE_TITLE: '政策删除',
+  SU_DELETE_POLICY: '删除政策成功',
+
+  SU_ADD_POLICY_ANALZING: '添加政策解读成功',
+  SU_EDIT_POLICY_ANALZING: '编辑政策解读成功',
+  CN_POLICY_ANALZING_DELETE_TITLE: '政策解读删除',
+  SU_DELETE_POLICY_ANALZING: '删除政策解读成功',
+
+  // 提现申请
+  SU_TRANSFERCOMPLETED: '确认转账成功'
+}

@@ -1,0 +1,8 @@
+.page-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  width: 200px;
+  transform: translate3d(-50%, -50%, 0);
+}

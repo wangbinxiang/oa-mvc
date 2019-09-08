@@ -1,0 +1,5 @@
+export const triggerLogoutSessionStorage = jest.fn()
+export const triggerSetSessionStorage = jest.fn()
+export const triggerUpdateSessionStorage = jest.fn()
+export const triggerGetSessionStorage = jest.fn()
+export const setEventSessionStorage = jest.fn()

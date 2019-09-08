@@ -1,0 +1,129 @@
+// element-ui
+#app .el-table--scrollable-x .el-table__body-wrapper{
+  overflow-x: inherit;
+}
+
+.el-table__body-wrapper:hover > .ps__rail-x,
+.el-table__body-wrapper:hover > .ps__rail-y,
+.ps--focus > .ps__rail-x,
+.ps--focus > .ps__rail-y,
+.ps--scrolling-x > .ps__rail-x,
+.ps--scrolling-y > .ps__rail-y {
+  opacity: 0.8 !important;
+}
+
+.el-table__body-wrapper > .ps__rail-x, .ps--active-x > .ps__rail-x, .ps--active-y > .ps__rail-y {
+  display: block;
+  background-color: transparent;
+}
+
+.img-size-50 {
+  height: 50px;
+}
+
+.img-size-100 {
+  height: 100px;
+}
+
+.img-size-200 {
+  height: 200px;
+}
+
+.product-image-one {
+  position: relative;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+  width: 128px;
+  height: 128px;
+  float: left;
+  overflow: hidden;
+  border: 1px dashed $white-6;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 122px;
+  img {
+    padding: 3px;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+  }
+}
+
+.product-image-all {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  line-height: 122px;
+  img {
+    padding: 3px;
+    float: left;
+    height: 128px;
+    vertical-align: middle;
+    border: 1px dashed $white-6;
+    border-radius: 6px;
+  }
+  img {
+    margin: 0 5px;
+  }
+}
+
+.product-image-all-size-50{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  height: 50px;
+  text-align: center;
+  .pswipe-gallery{
+    display: inline-block;
+  }
+  img {
+    padding: 3px;
+    float: left;
+    height: 50px;
+    vertical-align: middle;
+    border: 1px dashed $white-6;
+    border-radius: 6px;
+  }
+  img {
+    margin: 0 5px;
+  }
+}
+
+.product-image-all-title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  img {
+    margin: 0 auto;
+    padding: 3px;
+    display: block;
+    height: 128px;
+    border: 1px dashed $white-6;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .wrapper-image{
+    float: left;
+    margin: 0 5px;
+  }
+}
+.default-img-wrapper{
+  width: 128px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 滚动条
+.no-scroll .material-input{
+  overflow-y: hidden;
+}

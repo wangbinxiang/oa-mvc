@@ -1,0 +1,98 @@
+@import './variablesRose.scss';
+@import './variablesJack.scss';
+@import './variablesBee.scss';
+
+/**
+* font-size
+*/
+$font-size-24: 24px;
+$font-size-20: 20px;
+$font-size-18: 18px;
+$font-size-16: 16px;
+$font-size-14: 14px;
+$font-size-12: 12px;
+
+/**
+* $spacer: 10px;
+*/
+$spacer-0: 0;
+$spacer-10: 10px;
+$spacer-12: 12px;
+$spacer-15: 15px;
+$spacer-18: 18px;
+$spacer-20: 20px;
+$spacer-22: 22px;
+$spacer-24: 10px;
+$spacer-180: 180px;
+
+/**
+* line-height
+*/
+$line-height-12: 1.2;
+$line-height-15: 1.5;
+$line-height-20: 2;
+
+/**
+* btn-color
+*/
+$btn-color-primary-8: rgba(64, 158, 255, 0.8);
+$btn-bg-primary-1: rgba(236, 245, 255, 0.1);
+$btn-border-primary-3: rgba(179, 216, 255, 0.3);
+
+$btn-color-success-8: rgba(103, 194, 58, 0.8);
+$btn-bg-success-1: rgba(240, 249, 235, 0.1);
+$btn-border-success-3: rgba(194, 231, 176, 0.3);
+
+$btn-color-info-8: rgba(144, 147, 153, 0.8);
+$btn-bg-info-1: rgba(244, 244, 245, 0.1);
+$btn-border-info-3: rgba(211, 212, 214, 0.3);
+
+$btn-color-warning-8: rgba(230, 162, 60, 0.8);
+$btn-bg-warning-1: rgba(253, 246, 236, 0.1);
+$btn-border-warning-3: rgba(245, 218, 177, 0.3);
+
+$btn-color-danger-8: rgba(245, 108, 108, 0.8);
+$btn-bg-danger-1: rgba(254, 240, 240, 0.1);
+$btn-border-danger-3: rgba(251, 196, 196, 0.3);
+
+/**
+* message color
+*/
+$theme-jack-message-info-border: rgba(235, 238, 245, 0.1);
+$theme-jack-message-info-bg: rgba(237, 242, 252, 0.1);
+
+$theme-jack-message-success-border: rgba(240, 249, 235, 0.1);
+$theme-jack-message-success-bg: rgba(225, 243, 216, 0.1);
+$theme-jack-message-success-color: rgba(102, 192, 57, 0.8);
+
+$theme-jack-message-warning-border: rgba(240, 249, 235, 0.1);
+$theme-jack-message-warning-bg: rgba(253, 246, 236, 0.1);
+$theme-jack-message-warning-color: rgba(230, 162, 60, 0.8);
+
+$theme-jack-message-error-border: rgba(253, 226, 226, 0.1);
+$theme-jack-message-error-bg: rgba(254, 240, 240, 0.1);
+$theme-jack-message-error-color: rgba(245, 108, 108, 0.8);
+
+/**
+ * Color system
+ */
+$white: rgba(255, 255, 255, 1);
+$white-8: rgba(255, 255, 255, 0.8);
+$white-6: rgba(255, 255, 255, 0.6);
+$white-4: rgba(255, 255, 255, 0.4);
+$white-3: rgba(255, 255, 255, 0.3);
+$white-2: rgba(255, 255, 255, 0.2);
+$white-1: rgba(255, 255, 255, 0.1);
+
+$transparent: transparent;
+
+/**
+* domain
+*/
+
+$domain: 'https://huizhong-united.oss-cn-beijing.aliyuncs.com/oa/img/';
+$logo: 'logo-huizhonglianhe.png';
+// $logo: 'logo-jinrong.png';
+// $logo: 'logo-rencai.png';
+// $logo: 'logo-zhongjie.png';
+// $logo: 'logo-chanxiao.png';

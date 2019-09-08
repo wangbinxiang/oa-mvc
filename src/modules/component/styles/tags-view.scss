@@ -1,0 +1,52 @@
+@import 'src/bases/styles/variables.scss';
+.tags-view-container {
+  .tags-view-wrapper {
+    height: 40px;
+    .tags-view-item {
+      position: relative;
+      display: block;
+      float: left;
+      margin-left: 5px;
+      margin-top: 7px;
+      padding: 0 12px;
+      height: 26px;
+      line-height: 26px;
+      color: #495060;
+      background: $white-8;
+      font-size: 12px;
+      border-radius: 13px;
+      .iconfont {
+        vertical-align: -1px;
+        font-size: 14px;
+      }
+      &:first-of-type {
+        margin-left: 15px;
+      }
+      &.active {
+        background-color: $btn-color-primary-8;
+        color: $white-8;
+      }
+    }
+  }
+  .contextmenu {
+    margin: 0;
+    background: $white-3;
+    z-index: 100;
+    position: absolute;
+    list-style-type: none;
+    padding: 5px 0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3);
+    li {
+      margin: 0;
+      padding: 7px 16px;
+      cursor: pointer;
+      &:hover {
+        background: $white-8;
+      }
+    }
+  }
+}

@@ -1,0 +1,625 @@
+.jack {
+  background-image: url($domain+'bg_jack.png');
+  &::before {
+    background: linear-gradient(
+      45deg,
+      $theme-jack-color-blue,
+      $theme-jack-color-cyan-blue
+    );
+  }
+  .full-screen {
+    background-image: url($domain+'bg_jack.png');
+    &::before {
+      background: linear-gradient(
+        45deg,
+        $theme-jack-color-blue,
+        $theme-jack-color-cyan-blue
+      );
+    }
+  }
+  a {
+    color: $theme-jack-color-cyan-blue;
+  }
+  .seamless-warp {
+    a {
+      color: $white-6;
+      &:hover {
+        color: $theme-jack-color-cyan-blue;
+      }
+    }
+  }
+  .el-breadcrumb__inner a:hover,
+  .el-breadcrumb__inner.is-link:hover {
+    color: $white-6!important;;
+  }
+  // signin page
+  .signIn-container {
+    &::before {
+      background-color: $theme-jack-color-blue;
+    }
+    .el-form-item {
+      .show-pwd {
+        color: $white;
+      }
+    }
+    .ln {
+      .nc-container {
+        .nc_scale {
+          background: $theme-jack-color-blue-2;
+          span {
+            border: 1px solid $white-2;
+            background: $white-2;
+          }
+          .btn_slide {
+            color: $white;
+          }
+          .scale_text {
+            color: $white-8;
+          }
+        }
+        .scale_text.scale_text.slidetounlock span[data-nc-lang='_startTEXT'],
+        ._nc .stage1 .label {
+          background: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0, $white-2),
+            color-stop(0.4, $white-2),
+            color-stop(0.5, $white),
+            color-stop(0.6, $white-2),
+            color-stop(1, $white-2)
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-animation: slidetounlock 3s infinite;
+          -webkit-text-size-adjust: none;
+        }
+        ._nc .stage1 {
+          .button {
+            border: 1px solid $white-2;
+            background: $white-2;
+          }
+          .slider {
+            background: $theme-jack-color-blue-2;
+          }
+        }
+        .errloading {
+          border-color: $white-2;
+        }
+      }
+    }
+  }
+  //signIn project info
+  .project-info {
+    color: $white;
+    &::before {
+      background-color: $theme-jack-color-blue;
+    }
+  }
+  .el-checkbox {
+    color: $white-2;
+    &.is-bordered {
+      border: 1px solid $white-4;
+    }
+  }
+  .el-checkbox.is-bordered.is-checked {
+    border-color: $theme-jack-color-cyan-blue;
+  }
+  .el-checkbox__input.is-checked + .el-checkbox__label {
+    color: $theme-jack-color-cyan-blue;
+  }
+  .el-checkbox__inner {
+    border-color: $white-2;
+    background: $white-2;
+  }
+  .el-checkbox__input.is-checked .el-checkbox__inner,
+  .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: $theme-jack-color-cyan-blue;
+    border-color: $theme-jack-color-cyan-blue;
+  }
+  .el-radio {
+    color: $white-2;
+    &.is-bordered {
+      border: 1px solid $white-4;
+    }
+  }
+  .el-radio.is-bordered.is-checked {
+    border-color: $theme-jack-color-cyan-blue;
+  }
+  .el-radio__input.is-checked + .el-radio__label {
+    color: $theme-jack-color-cyan-blue;
+  }
+  .el-radio__inner {
+    border-color: $white-2;
+    background: $white-2;
+  }
+  .el-radio__input.is-checked .el-radio__inner,
+  .el-radio__input.is-indeterminate .el-radio__inner {
+    background-color: $theme-jack-color-cyan-blue;
+    border-color: $theme-jack-color-cyan-blue;
+  }
+  .el-dialog {
+    background: linear-gradient(
+      45deg,
+      $theme-jack-color-blue-6,
+      $theme-jack-color-cyan-blue-2
+    );
+    .el-dialog__header {
+      .el-dialog__title {
+        color: $white-8;
+      }
+    }
+    .el-dialog__body {
+      color: $white-8;
+    }
+  }
+  // header bar
+  .header-bar {
+    background-color: $theme-jack-color-blue-4;
+    box-shadow: 0 1px 6px $theme-jack-color-blue-8;
+    border-bottom: 1px solid $white-1;
+  }
+  // sidebar
+  .sidebar-container .el-menu {
+    background-color: $theme-jack-color-blue-4;
+  }
+  .sidebar-container .el-menu--inline {
+    background-color: $theme-jack-color-blue-2 !important;
+  }
+  .copy {
+    background-color: $theme-jack-color-blue-4;
+  }
+  .right-menu-item {
+    &:hover {
+      background-color: $theme-jack-color-blue-6;
+    }
+  }
+  .el-dropdown {
+    color: $white-4;
+  }
+  .el-menu-item.is-active {
+    color: $theme-jack-color-cyan-blue;
+  }
+  .tags-view-container {
+    background-color: $theme-jack-color-blue-2;
+    border-bottom: 1px solid $white-1;
+  }
+  .el-submenu__title,
+  .el-menu-item {
+    color: $white-6;
+    background-color: $transparent !important;
+    &:hover {
+      color: $theme-jack-color-cyan-blue;
+      background-color: $theme-jack-color-blue-1 !important;
+      i {
+        color: $theme-jack-color-cyan-blue;
+      }
+    }
+  }
+  .is-opened {
+    & > .el-submenu__title {
+      color: $theme-jack-color-cyan-blue;
+      background-color: $theme-jack-color-blue-4 !important;
+      i {
+        color: $theme-jack-color-cyan-blue;
+      }
+      &:hover {
+        color: $theme-jack-color-cyan-blue;
+        background-color: $theme-jack-color-blue-4 !important;
+        i {
+          color: $theme-jack-color-cyan-blue;
+        }
+      }
+    }
+    .el-menu-item {
+      color: $white-4;
+      &:hover {
+        color: $theme-jack-color-cyan-blue;
+        i {
+          color: $theme-jack-color-cyan-blue;
+        }
+      }
+    }
+    .router-link-active {
+      .el-menu-item.is-active {
+        color: $theme-jack-color-cyan-blue;
+      }
+    }
+    .tags-view-container {
+      .tags-view-wrapper {
+        .tags-view-item {
+          color: $white-6 !important;
+          background: $white-2 !important;
+          &.active {
+            color: $white !important;
+            background-color: $theme-jack-color-cyan-blue !important;
+          }
+        }
+      }
+    }
+  }
+  // mobile sidebar
+  .mobile {
+    .sidebar-container .el-menu {
+      background-color: $theme-jack-color-blue-8;
+    }
+    .copy {
+      background-color: $theme-jack-color-blue-8;
+    }
+    .right-menu-item {
+      &:hover {
+        background-color: $theme-jack-color-blue-6;
+      }
+    }
+    .el-dropdown {
+      color: $white-4;
+    }
+    .el-menu-item.is-active {
+      color: $theme-jack-color-cyan-blue;
+      background-color: $theme-jack-color-blue-2;
+    }
+    .el-menu-item:focus,
+    .el-menu-item:hover {
+      outline: 0;
+      background-color: $theme-jack-color-blue-4;
+    }
+    .tags-view-container {
+      background-color: $theme-jack-color-blue-2;
+      border-bottom: 1px solid $white-1;
+    }
+    .el-submenu__title,
+    .el-menu-item {
+      color: $white-4;
+      background-color: $transparent !important;
+      &:hover {
+        color: $theme-jack-color-cyan-blue;
+        background-color: $theme-jack-color-blue-4 !important;
+        i {
+          color: $theme-jack-color-cyan-blue;
+        }
+      }
+    }
+    .is-opened {
+      .el-submenu__title {
+        color: $theme-jack-color-cyan-blue;
+        background-color: $theme-jack-color-blue-6 !important;
+        i {
+          color: $theme-jack-color-cyan-blue;
+        }
+        &:hover {
+          color: $theme-jack-color-cyan-blue;
+          background-color: $theme-jack-color-blue-8 !important;
+          i {
+            color: $theme-jack-color-cyan-blue;
+          }
+        }
+      }
+      .el-menu-item {
+        color: $white-4;
+        background-color: $theme-jack-color-blue-6 !important;
+        &:hover {
+          color: $theme-jack-color-cyan-blue;
+          background-color: $theme-jack-color-blue-8 !important;
+          i {
+            color: $theme-jack-color-cyan-blue;
+          }
+        }
+      }
+    }
+  }
+  .router-link-active {
+    .el-menu-item.is-active {
+      color: $theme-jack-color-cyan-blue;
+    }
+  }
+  .tags-view-container {
+    .tags-view-wrapper {
+      .tags-view-item {
+        color: $white-6 !important;
+        background: $white-2 !important;
+        &.active {
+          color: $white !important;
+          background-color: $theme-jack-color-cyan-blue !important;
+        }
+      }
+    }
+  }
+  /**
+  * content
+  */
+  .container-fluid {
+    background-color: $theme-jack-color-blue-4;
+    color: $white-8;
+  }
+  .el-table,
+  .el-table__expanded-cell {
+    background-color: $transparent;
+  }
+  .el-table--border,
+  .el-table--group {
+    border: 1px solid $white-2;
+  }
+  .el-table {
+    color: $white-6;
+    thead {
+      color: $white;
+      tr {
+        background-color: $theme-jack-color-blue-4;
+      }
+    }
+    tr,
+    th,
+    td {
+      background-color: $transparent;
+    }
+    td,
+    th.is-leaf {
+      border-bottom: 1px solid $white-2;
+    }
+    .descending .sort-caret.descending {
+      border-top-color: $theme-jack-color-cyan-blue;
+    }
+    .ascending .sort-caret.ascending {
+      border-bottom-color: $theme-jack-color-cyan-blue;
+    }
+  }
+  .el-table--border td,
+  .el-table--border th,
+  .el-table__body-wrapper
+    .el-table--border.is-scrolling-left
+    ~ .el-table__fixed {
+    border-right: 1px solid $white-2;
+  }
+  .el-table--border::after,
+  .el-table--group::after,
+  .el-table::before {
+    background-color: $white-2;
+    display: none;
+  }
+  .el-table--enable-row-hover .el-table__body tr:hover > td {
+    color: $white-8;
+    background-color: $theme-jack-color-cyan-blue-2;
+  }
+  .el-table--striped .el-table__body tr.el-table__row--striped.current-row td,
+  .el-table__body tr.current-row > td,
+  .el-table__body tr.hover-row.current-row > td,
+  .el-table__body tr.hover-row.el-table__row--striped.current-row > td,
+  .el-table__body tr.hover-row.el-table__row--striped > td,
+  .el-table__body tr.hover-row > td {
+    color: $white-8;
+    background-color: $theme-jack-color-cyan-blue-2;
+  }
+  .el-table__fixed-right {
+    background-color: $theme-jack-color-blue-8;
+    &:before {
+      display: none;
+    }
+  }
+  .pagination-container {
+    .el-pagination__total {
+      color: $white-6;
+    }
+    .el-pagination {
+      color: $white-6;
+    }
+    .el-pagination.is-background .btn-next,
+    .el-pagination.is-background .btn-prev,
+    .el-pagination.is-background .el-pager li {
+      background-color: $theme-jack-color-blue-4;
+      color: $white-4;
+    }
+    .el-pagination.is-background .btn-next.disabled,
+    .el-pagination.is-background .btn-next:disabled,
+    .el-pagination.is-background .btn-prev.disabled,
+    .el-pagination.is-background .btn-prev:disabled,
+    .el-pagination.is-background .el-pager li.disabled {
+      color: $white-2;
+      background-color: $theme-jack-color-blue-2;
+    }
+    .el-pagination.is-background .el-pager li:not(.disabled).active {
+      background-color: $theme-jack-color-cyan-blue;
+      color: $white;
+    }
+  }
+  .el-input__inner {
+    background-color: $transparent;
+    border: 1px solid $white-2;
+    color: $white-4;
+  }
+  .el-input.is-active .el-input__inner,
+  .el-input__inner:focus,
+  .el-select .el-input.is-focus .el-input__inner,
+  .el-pagination__sizes .el-input .el-input__inner:hover {
+    border-color: $theme-jack-color-cyan-blue;
+    outline: 0;
+  }
+  .el-loading-mask {
+    background-color: $transparent !important;
+    .el-loading-spinner {
+      background-color: $theme-jack-color-blue-2;
+    }
+    .el-loading-spinner .path {
+      stroke: $theme-jack-color-cyan-blue;
+    }
+    .el-loading-text {
+      color: $theme-jack-color-cyan-blue;
+    }
+  }
+  .el-input-group__append,
+  .el-input-group__prepend {
+    background-color: $transparent;
+    color: $white;
+    border-color: $white-2;
+  }
+  .app-breadcrumb.el-breadcrumb .no-redirect {
+    color: $white-6 !important;
+  }
+  .el-breadcrumb__separator {
+    color: $white-6 !important;
+  }
+  .el-tabs__nav-wrap::after {
+    background-color: $white-1;
+  }
+  .el-tabs__active-bar {
+    background-color: $theme-jack-color-cyan-blue;
+  }
+  .el-tabs__item.is-active {
+    color: $theme-jack-color-cyan-blue;
+  }
+  .el-tabs__item {
+    color: $white-4;
+    &:hover {
+      color: $theme-jack-color-cyan-blue;
+    }
+  }
+  .material-input__component.material--raised .material-label {
+    background-color: $theme-jack-color-cyan-blue-2;
+  }
+  .organization-logo {
+    background-color: $white-1;
+    border: 1px solid $white-2;
+  }
+  .el-collapse-item__header {
+    color: $theme-jack-color-cyan-blue;
+    &::before {
+      background-color: $theme-jack-color-cyan-blue;
+    }
+  }
+  .grid,
+  .dashboard-filterbar {
+    background-color: $theme-jack-color-blue-2;
+  }
+  .el-upload-list__item:hover {
+    color: $theme-jack-color-cyan-blue;
+    background-color: $theme-jack-color-blue-2;
+  }
+  .article-container {
+    background-color: $theme-jack-color-blue-2;
+  }
+  .bm-search-result {
+    background-color: $theme-jack-color-blue-2;
+  }
+}
+
+.jack ~ .el-menu--vertical {
+  .el-dropdown-menu__item--divided:before,
+  .el-menu,
+  .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+  .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+  .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+    background-color: $theme-jack-color-blue-8 !important;
+  }
+  .el-menu-item,
+  .el-submenu__title {
+    color: $white-6 !important;
+    i {
+      color: $white-6 !important;
+    }
+  }
+  .el-menu-item:focus,
+  .el-menu-item:hover,
+  .el-submenu__title:focus,
+  .el-submenu__title:hover {
+    outline: 0;
+    color: $theme-jack-color-cyan-blue !important;
+    background-color: $theme-jack-color-blue-8 !important;
+    i {
+      color: $theme-jack-color-cyan-blue !important;
+    }
+  }
+  .el-collapse-item__header {
+    color: $theme-jack-color-cyan-blue;
+    &::before {
+      background-color: $theme-jack-color-cyan-blue;
+    }
+  }
+}
+
+.jack ~ .el-dropdown-menu {
+  border: 1px solid $theme-jack-color-blue-8 !important;
+  background-color: $theme-jack-color-blue-6 !important;
+  .el-dropdown-menu__item {
+    color: $white-6;
+    &.is-disabled {
+      color: $white-2;
+    }
+    a {
+      color: $white-6;
+    }
+    &:not(.is-disabled):hover {
+      background-color: $theme-jack-color-blue-4 !important;
+      a {
+        color: $theme-jack-color-cyan-blue !important;
+      }
+    }
+  }
+  .popper__arrow {
+    border-bottom-color: $theme-jack-color-blue-2 !important;
+    &::after {
+      border-bottom-color: $theme-jack-color-blue-2;
+    }
+  }
+}
+
+.jack ~ .el-tooltip__popper.is-dark {
+  background: $theme-jack-color-blue-4 !important;
+}
+
+.jack ~ .el-tooltip__popper[x-placement^='top'] .popper__arrow {
+  border-top-color: $theme-jack-color-blue-2 !important;
+}
+
+.jack ~ .el-tooltip__popper[x-placement^='right'] .popper__arrow {
+  border-right-color: $theme-jack-color-blue-2 !important;
+}
+
+.jack ~ .el-tooltip__popper[x-placement^='bottom'] .popper__arrow {
+  border-bottom-color: $theme-jack-color-blue-2 !important;
+}
+.jack ~ .el-tooltip__popper[x-placement^='left'] .popper__arrow {
+  border-left-color: $theme-jack-color-blue-2 !important;
+}
+.jack ~ .el-select-dropdown {
+  border: 1px solid $theme-jack-color-blue-6;
+  background-color: $theme-jack-color-blue-6;
+  .el-select-dropdown__item {
+    color: $white-8;
+  }
+  .el-select-dropdown__item.is-disabled {
+    color: #676565;
+  }
+  .el-select-dropdown__item.selected {
+    color: $theme-jack-color-cyan-blue;
+    font-weight: 700;
+  }
+  .el-select-dropdown__item.hover,
+  .el-select-dropdown__item:hover {
+    background-color: $theme-jack-color-blue-4;
+  }
+}
+.jack ~ .el-popper[x-placement^='bottom'] .popper__arrow {
+  border-bottom-color: $theme-jack-color-blue-4 !important;
+  &::after {
+    border-bottom-color: $theme-jack-color-blue-4 !important;
+  }
+}
+.jack ~ .el-popper[x-placement^='top'] .popper__arrow {
+  border-top-color: $theme-jack-color-blue-4 !important;
+  &::after {
+    border-top-color: $theme-jack-color-blue-4 !important;
+  }
+}
+.jack ~ .el-message-box__wrapper .el-message-box {
+  background: linear-gradient(
+    45deg,
+    $theme-jack-color-blue-6,
+    $theme-jack-color-cyan-blue-2
+  );
+  border: 1px solid $theme-jack-color-blue-6;
+  .el-message-box__title {
+    color: $white-8;
+  }
+  .el-message-box__content {
+    color: $white-6;
+  }
+}

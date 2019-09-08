@@ -1,0 +1,19 @@
+.seamless-warp {
+  overflow: hidden;
+  height: 58px;
+  width: 100%;
+  ul.item {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: calc(100vw - 506px);
+    height: 58px;
+    li {
+      float: left;
+      margin-right: 30px;
+      height: 58px;
+      line-height: 58px;
+      font-size: 16px;
+    }
+  }
+}
