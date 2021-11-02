@@ -2521,7 +2521,7 @@ circular-json@^0.3.1:
 
 class-transformer@^0.2.3:
   version "0.2.3"
-  resolved "http://r.cnpmjs.org/class-transformer/download/class-transformer-0.2.3.tgz#598c92ca71dcca73f91ccb875d74a3847ccfa32d"
+  resolved "https://r.cnpmjs.org/class-transformer/download/class-transformer-0.2.3.tgz#598c92ca71dcca73f91ccb875d74a3847ccfa32d"
   integrity sha1-WYySynHcynP5HMuHXXSjhHzPoy0=
 
 class-utils@^0.3.5:
@@ -10024,10 +10024,10 @@ timsort@^0.3.0:
   resolved "http://registry.npm.taobao.org/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinymce@^5.0.5:
-  version "5.0.5"
-  resolved "https://registry.npm.taobao.org/tinymce/download/tinymce-5.0.5.tgz#4e46cb61a095605db1ed457253447f2ec28466b9"
-  integrity sha1-TkbLYaCVYF2x7UVyU0R/LsKEZrk=
+tinymce@^5.10.0:
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.10.0.tgz#5f88b40c2b26dc72b126f7d04944014dcb1ace05"
+  integrity sha512-SaqBK8GtTKYSsTfhKdN0+NrZRgmVWO+j3fvgzLjt0t/g0osNzRH5os8icm2Rv5HvaeTd4TpxetUuLE+R9yg/yg==
 
 tmp@^0.0.33:
   version "0.0.33"
