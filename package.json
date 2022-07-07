@@ -28,7 +28,7 @@
     "js-cookie": "^2.2.0",
     "jsinspect": "^0.12.7",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "perfect-scrollbar": "^1.4.0",
     "register-service-worker": "^1.5.2",
     "screenfull": "^4.0.1",
